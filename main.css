@@ -1,0 +1,60 @@
+* {
+  font-size: inherit;
+  color: inherit;
+}
+.whole-container {
+  color: #fff;
+  font-size: 40px;
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+  background: green;
+  display: flex;
+  height: 20%;
+  justify-content: space-around;
+  align-items: center;
+}
+.main {
+  background: #fff;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-item {
+  flex-direction: column;
+  display: flex;
+  height: 90%;
+}
+.hospitals {
+  width: 30%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.hospitals-info {
+  width: 70%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.hospital {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 80%;
+  height: 30%;
+  background: green;
+  border-radius: 10px;
+}
+.hospitals-info .hospital {
+  background: rgb(55, 92, 55);
+  font-size: 30px;
+  height: 90%;
+  display: none;
+}
+#baho-info {
+  display: inline-block;
+}
+#logo {
+  font-size: 20px;
+}
