@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+header{
+    width: 100%;
+    background: green;
+    box-shadow: 2px 1px 6px;
+    height: 80px;
+}
+header h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    padding: 10px;
+    color: white;
+}
+form{
+    position: absolute;
+    left: 45%;
+    top: 20%;
+}
+form input{
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid green;
+    outline: none;
+    background: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    float: left;
+    margin: 3px 5px;
+
+}
+form h2{
+    color: green;
+    font-size: 30px;
+    margin-bottom: 3px solid green;
+
+}
+form button{
+    background: none;
+    border: 2px solid green;
+    color: black;
+    padding: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    position:absolute;
+    right: 2px;
+    bottom: 1px;
+}
+form button:hover{
+    background: green;
+    color: white;
+
+}
